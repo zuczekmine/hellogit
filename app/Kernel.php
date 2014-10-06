@@ -17,15 +17,23 @@ class Kernel
             throw new InvalidArgumentException('You should provide "page" parameter like ?page=some-page', 401);
         }
 
-        $this->matchRoute($request->query['page']);
+        $response = $this->matchRoute($request);
+
+        $this->view->render($response);
     }
 
-    protected function matchRoute($page)
+    protected function matchRoute($request)
     {
+        $page = $request->query['page'];
+
         if (!array_key_exists($page, $this->routes)) {
             throw new InvalidArgumentException(sprintf('Page %s was not found', $page), 404);
         }
 
-        die('works');
+        $controller = new $this->routes[$page]['controller']();
+
+        $response = call_user_func(array($controller, sprintf('%s%s', $this->routes[$page]['action'], 'Action')), $request);
+
+        return $response;
     }
 }
