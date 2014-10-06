@@ -4,11 +4,13 @@ class ListController
 {
     public function listAction($request)
     {
+        $path = __ROOTDIR__.'var/students-list.xml';
+
+        $students = simplexml_load_file($path);
+
         return array(
             'template' => 'list',
-            'data' => array(
-                'var1', 'var2'
-            )
+            'data' => $students->student
         );
     }
 }
