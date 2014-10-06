@@ -1,3 +1,3 @@
 <?php
 
-echo 'Hello Git';
+require dirname(__FILE__).'/../app/app.php';
