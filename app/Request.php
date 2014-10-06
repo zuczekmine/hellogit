@@ -2,12 +2,12 @@
 
 class Request
 {
-    protected $request;
-    protected $query;
-    protected $attributes;
-    protected $cookies;
-    protected $files;
-    protected $server;
+    public $request;
+    public $query;
+    public $attributes;
+    public $cookies;
+    public $files;
+    public $server;
 
     public static function createFromGlobals()
     {
