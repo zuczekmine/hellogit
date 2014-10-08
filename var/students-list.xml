@@ -11,6 +11,15 @@
     <student>
         <firstname>Jakub</firstname>
         <lastname>Kanclerz</lastname>
+
+<students>
+    <student>
+        <firstname>Student1</firstname>
+        <lastname>Student1</lastname>
+        <email>student@uek.krakow.pl</email>
+        <github>studuek</github>
+        <group>jkanclerz</group>
+    </student>
         <email>jakub.kanclerz@gmail.com</email>
         <github>jkanclerz</github>
         <group>jkanclerz</group>
@@ -21,5 +30,12 @@
         <email>marcin.zgoda@gmail.com</email>
         <github>zgm92</github>
         <group>KrDzIS3011io</group>
+    </student
+    <student>
+	<firstname>Andrzej</firstname>
+	<lastname>Jagielski</listname>
+	<email>andjagielski@gmail.com</email>
+	<github>sirskan</github>
+	<group>KrDzIs3012Io</group>
     </student>
 </students>
