@@ -38,4 +38,19 @@
 	<github>sirskan</github>
 	<group>KrDzIs3012Io</group>
     </student>
+ <student>
+        <firstname>Elena</firstname>
+        <lastname>Iakovlieva</lastname>
+        <email>almera7@interia.eu</email>
+        <github>almera7</github>
+        <group>KrDzia3012</group>
+    </student>
+ <student>
+        <firstname>Magdalena</firstname>
+        <lastname>Wlazło</lastname>
+        <email>wlazloxmagdalena@gmail.com</email>
+        <github>maggie930727</github>
+        <group>KrDzIS3011Si</group>
+    </student>
+
 </students>
