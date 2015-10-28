@@ -80,7 +80,13 @@
 
     </student>
 
-
+<student>
+	<firstname> Lukasz</firstname>
+    	<lastname> Dolezalek</lastname>
+    	<email> luki6021@wp.pl</email>
+    	<github> luki6021</github>
+    	<group> KrDZIs3011Io</group>
+</student>
 
 
 
